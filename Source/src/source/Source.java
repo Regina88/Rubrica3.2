@@ -19,28 +19,38 @@ public class Source {
     public static void main(String[] args) {
            
     Scanner entrada = new Scanner (System.in);
+    
+        String clave = "12345";
+        String usuario = "Regi";
+        String miclave = "";
+        String miusuario = "";
+        int bandera = 0;
+        int contador = 0;
+        
         int numero1=0, numero2=0, numero3=0, menor=0;
-        System.out.println("Ingrese el primer nÃºmero  -> ");
+        System.out.println("Ingrese el primer número  -> ");
         numero1=entrada.nextInt();
-        System.out.println("Ingresa el segundo nÃºmero  -> ");
+        System.out.println("Ingresa el segundo número  -> ");
         numero2=entrada.nextInt();
-        System.out.println("Ingresa el tercer nÃºmero  -> ");
+        System.out.println("Ingresa el tercer número  -> ");
         numero3=entrada.nextInt();
         
         menor=numero1;
         if(numero2<menor) {
             menor=numero2;
             if(numero3<menor) {
-            menor=numero3;
-           
+            menor=numero3;   
             
         }
-         System.out.printf("Entre %d, %d y %d el nÃºmero menor es %d\n",numero1,numero2,numero3,menor);
+         System.out.printf("Entre %d, %d y %d el número menor es %d\n",numero1,numero2,numero3,menor);
        
     }
+  
+        
     
 }
-
+    
+ 
 
 }
     
