@@ -30,9 +30,19 @@ public class Source {
         menor=numero1;
         if(numero2<menor) {
             menor=numero2;
+            if(numero3<menor) {
+            menor=numero3;
+           
+            
         }
-
-
+         System.out.printf("Entre %d, %d y %d el nÃºmero menor es %d\n",numero1,numero2,numero3,menor);
+       
     }
     
 }
+
+
+}
+    
+    
+
