@@ -26,6 +26,12 @@ public class Source {
         numero2=entrada.nextInt();
         System.out.println("Ingresa el tercer nÃºmero  -> ");
         numero3=entrada.nextInt();
+        
+        menor=numero1;
+        if(numero2<menor) {
+            menor=numero2;
+        }
+
 
     }
     
