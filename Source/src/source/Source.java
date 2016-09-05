@@ -66,6 +66,7 @@ public class Source {
          System.out.printf("Entre %d, %d y %d el número menor es %d\n",numero1,numero2,numero3,menor);
        
     }
+        
   }
   }
   
